@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Css_CHager",
+    "version": "0.1",
+
+    "description": "Allows you to modify css on a page",
+
+    "icons": {
+        "48": "icons/ryuko-48.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/ryuko-48.png",
+        "default_title": "Test",
+        "default_popup": "choose.html"
+    },
+
+    "web_accessible_resources": [
+        "choices/1.jpg",
+        "choices/2.jpg",
+        "choices/3.jpg"
+    ]
+
+}
